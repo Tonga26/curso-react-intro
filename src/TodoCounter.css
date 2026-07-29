@@ -1,11 +1,11 @@
-.TodoCounterTitle {
+.TodoCounter {
   font-size: 24px;
   text-align: center;
-  margin: 40px auto 24px auto;
-  font-weight: 400;
+  margin: 0;
+  padding: 48px;
+  font-weight: normal;
 }
 
-.TodoCounterTitle span {
+.TodoCounter span {
   font-weight: bold;
-  color: #0052FF;
 }

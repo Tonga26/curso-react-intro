@@ -1,6 +1,13 @@
 body {
   margin: 0;
-  font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
-  background-color: #F4F7FE;
+  padding: 0;
+  background-color: #F2F4F5;
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
   color: #1E1E1E;
+}
+
+#root {
+  margin: 0 24px;
+  position: relative;
+  min-height: 100vh;
 }
