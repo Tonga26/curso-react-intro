@@ -10,20 +10,26 @@ Una aplicación web interactiva para la gestión de tareas construida con React.
 
 ## 🗺️ Roadmap de Aprendizaje y Desarrollo
 
-A medida que el proyecto avance, se irán implementando y dominando los siguientes conceptos y tecnologías:
+**Fase 1: Fundamentos (Completado)**
+- [x] Creación y estructuración de componentes UI.
+- [x] Comunicación entre componentes mediante Props.
+- [x] Renderizado de listas a partir de arrays (uso de `key`).
+- [x] Maquetación y estilos modulares con metodología BEM y CSS puro.
+- [x] Renderizado condicional e inyección de clases dinámicas.
 
-- [ ] **Interactividad y Estado:** Manejo de Eventos y Estados (State) en React.
-- [ ] **Lógica de Negocio:** Funcionalidad para contar, completar y eliminar TODOs.
-- [ ] **UI/UX:** Integración de íconos, librerías externas y Loading Skeletons.
-- [ ] **Persistencia:** Almacenamiento de datos utilizando LocalStorage.
-- [ ] **Custom Hooks:** Creación de hooks personalizados para separar la lógica de la UI.
-- [ ] **Arquitectura Escalamiento:** Organización de archivos y carpetas, directorios *feature-first*, tips de naming y abstracción de componentes.
-- [ ] **Ciclo de Vida:** Manejo de efectos (`useEffect`), estados de carga (loading) y gestión de errores.
-- [ ] **Estado Global:** Implementación de `React Context` y `useContext`.
-- [ ] **Componentes Avanzados:** Uso de React Portals para la creación de Modales (estados para abrir/cerrar).
-- [ ] **Formularios:** Maquetación y manejo de datos de formularios.
-- [ ] **Despliegue:** Preparación y deploy a producción de la aplicación.
-- [ ] **Ecosistema React:** Análisis de diferencias entre versiones y entornos de desarrollo (Create React App vs. Vite vs. Next.js).
+**Fase 2: Interactividad y Lógica (Por hacer)**
+- [ ] Interactividad y Estado: Manejo de Eventos y Estados (State) en React.
+- [ ] Lógica de Negocio: Funcionalidad para contar, completar y eliminar TODOs.
+- [ ] UI/UX: Integración de íconos, librerías externas y Loading Skeletons.
+- [ ] Persistencia: Almacenamiento de datos utilizando LocalStorage.
+- [ ] Custom Hooks: Creación de hooks personalizados para separar la lógica de la UI.
+- [ ] Arquitectura Escalamiento: Organización de archivos y carpetas, directorios *feature-first*, tips de naming y abstracción de componentes.
+- [ ] Ciclo de Vida: Manejo de efectos (`useEffect`), estados de carga (loading) y gestión de errores.
+- [ ] Estado Global: Implementación de `React Context` y `useContext`.
+- [ ] Componentes Avanzados: Uso de React Portals para la creación de Modales (estados para abrir/cerrar).
+- [ ] Formularios: Maquetación y manejo de datos de formularios.
+- [ ] Despliegue: Preparación y deploy a producción de la aplicación.
+- [ ] Ecosistema React: Análisis de diferencias entre versiones y entornos de desarrollo (Create React App vs. Vite vs. Next.js).
 
 ## 🛠️ Tecnologías
 
