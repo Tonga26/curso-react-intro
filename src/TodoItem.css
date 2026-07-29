@@ -1,0 +1,36 @@
+.TodoItem {
+  background-color: #FFFFFF;
+  border-radius: 8px;
+  padding: 12px 24px;
+  margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.04);
+}
+
+.TodoItem-p {
+  margin: 0;
+  flex-grow: 1;
+  padding: 0 16px;
+}
+
+.Icon {
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.Icon-check {
+  color: #16C60C;
+}
+
+.Icon-delete {
+  color: #E21B1B;
+}
+
+.Icon-check:hover {
+  color: #0E8908;
+}
+
+.Icon-delete:hover {
+  color: #A31111;
+}
