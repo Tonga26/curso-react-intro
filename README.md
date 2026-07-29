@@ -1,75 +1,59 @@
-# Repositorio base del Curso de Introducción a React.js en Platzi
+# Todo Machine 📝 (En Desarrollo 🚧)
 
-¡Hola, Platzinauta!
+Una aplicación web interactiva para la gestión de tareas construida con React.js. Este proyecto se encuentra actualmente **en pleno desarrollo** como parte de un proceso de aprendizaje profundo para dominar los fundamentos y herramientas avanzadas del ecosistema de React.
 
-En este repositorio encontrarás el código de todas las clases del [Curso de Introducción a React.js](https://platzi.com/reactjs). Para empezar solo debes clonar este repositorio (`git clone`), instalar sus dependencias (`npm i`) y ejecutar la aplicación (`npm start`).
+## 🚀 Características Actuales
 
-La rama principal contiene el código con el que eempezamos el curso. En las demás ramas encontrarás el código de las siguientes clases y finalmente el deploy de la aplicación.
+- **Arquitectura Base:** Creación y estructuración inicial de componentes funcionales.
+- **Renderizado Dinámico:** Uso de condicionales y propiedades (props) para modificar la interfaz.
+- **Estilos Modulares:** Aplicación estricta de la metodología BEM (Block, Element, Modifier) mediante CSS puro y clases dinámicas.
 
-¡Mucha suerte aprendiendo React! #NuncaParesDeAprender
+## 🗺️ Roadmap de Aprendizaje y Desarrollo
 
-## Getting Started with Create React App
+A medida que el proyecto avance, se irán implementando y dominando los siguientes conceptos y tecnologías:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- [ ] **Interactividad y Estado:** Manejo de Eventos y Estados (State) en React.
+- [ ] **Lógica de Negocio:** Funcionalidad para contar, completar y eliminar TODOs.
+- [ ] **UI/UX:** Integración de íconos, librerías externas y Loading Skeletons.
+- [ ] **Persistencia:** Almacenamiento de datos utilizando LocalStorage.
+- [ ] **Custom Hooks:** Creación de hooks personalizados para separar la lógica de la UI.
+- [ ] **Arquitectura Escalamiento:** Organización de archivos y carpetas, directorios *feature-first*, tips de naming y abstracción de componentes.
+- [ ] **Ciclo de Vida:** Manejo de efectos (`useEffect`), estados de carga (loading) y gestión de errores.
+- [ ] **Estado Global:** Implementación de `React Context` y `useContext`.
+- [ ] **Componentes Avanzados:** Uso de React Portals para la creación de Modales (estados para abrir/cerrar).
+- [ ] **Formularios:** Maquetación y manejo de datos de formularios.
+- [ ] **Despliegue:** Preparación y deploy a producción de la aplicación.
+- [ ] **Ecosistema React:** Análisis de diferencias entre versiones y entornos de desarrollo (Create React App vs. Vite vs. Next.js).
 
-## Available Scripts
+## 🛠️ Tecnologías
 
-In the project directory, you can run:
+- **Librería Core:** React.js
+- **Lenguaje:** JavaScript (ES6+)
+- **Estilos:** CSS3 Puro (Metodología BEM)
+- **Entorno:** Create React App
 
-### `npm start`
+## ⚙️ Instalación y Uso (Local)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Para probar la versión actual en tu entorno local, sigue estos pasos:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1- Clona el repositorio:
+```bash
+git clone https://github.com/Tonga26/curso-react-intro
+```
 
-### `npm run build`
+2- Accede al directorio del proyecto:
+```Bash
+cd curso-react-intro
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3- Instala las dependencias necesarias:
+```Bash
+npm install
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+4- Inicia el servidor de desarrollo:
+```Bash
+npm start
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+La aplicación estará disponible en http://localhost:3000.
