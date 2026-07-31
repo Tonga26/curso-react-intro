@@ -10,25 +10,36 @@ Una aplicación web interactiva para la gestión de tareas construida con React.
 
 ## 🗺️ Roadmap de Aprendizaje y Desarrollo
 
-**Fase 1: Fundamentos (Completado)**
+**Fase 1: Fundamentos y UI Estática (Completado)**
 - [x] Creación y estructuración de componentes UI.
 - [x] Comunicación entre componentes mediante Props.
 - [x] Renderizado de listas a partir de arrays (uso de `key`).
 - [x] Maquetación y estilos modulares con metodología BEM y CSS puro.
 - [x] Renderizado condicional e inyección de clases dinámicas.
 
-**Fase 2: Interactividad y Lógica (Por hacer)**
-- [ ] Interactividad y Estado: Manejo de Eventos y Estados (State) en React.
-- [ ] Lógica de Negocio: Funcionalidad para contar, completar y eliminar TODOs.
-- [ ] UI/UX: Integración de íconos, librerías externas y Loading Skeletons.
-- [ ] Persistencia: Almacenamiento de datos utilizando LocalStorage.
-- [ ] Custom Hooks: Creación de hooks personalizados para separar la lógica de la UI.
-- [ ] Arquitectura Escalamiento: Organización de archivos y carpetas, directorios *feature-first*, tips de naming y abstracción de componentes.
-- [ ] Ciclo de Vida: Manejo de efectos (`useEffect`), estados de carga (loading) y gestión de errores.
-- [ ] Estado Global: Implementación de `React Context` y `useContext`.
-- [ ] Componentes Avanzados: Uso de React Portals para la creación de Modales (estados para abrir/cerrar).
-- [ ] Formularios: Maquetación y manejo de datos de formularios.
-- [ ] Despliegue: Preparación y deploy a producción de la aplicación.
+**Fase 2: Interactividad y Persistencia (Completado)**
+- [x] Interactividad y Estado: Manejo de Eventos y Estados (`useState`) en React.
+- [x] Lógica de Negocio: Funcionalidad para contar, completar y eliminar TODOs.
+- [x] Integración de Íconos: Creación de componentes SVG reutilizables.
+- [x] Persistencia: Almacenamiento de datos utilizando API genérica del navegador (`localStorage`).
+- [x] Custom Hooks: Abstracción de la lógica de almacenamiento en un hook personalizado (`useLocalStorage`).
+
+**Fase 3: Asincronismo y Ciclo de Vida (Por hacer)**
+- [ ] Efectos Secundarios: Manejo del ciclo de vida de los componentes con `useEffect`.
+- [ ] Estados UI: Gestión de estados de carga (loading) y manejo de errores.
+- [ ] Experiencia de Usuario (UX): Implementación de *Loading Skeletons* (pantallas de carga falsas).
+
+**Fase 4: Escalabilidad y Estado Global (Por hacer)**
+- [ ] Arquitectura: Organización de archivos y carpetas, directorios *feature-first* y abstracción de componentes.
+- [ ] Estado Global: Solución al *Prop Drilling* implementando `React Context` y `useContext`.
+
+**Fase 5: Componentes Avanzados y Formularios (Por hacer)**
+- [ ] React Portals: Teletransportación de componentes en el DOM.
+- [ ] Modales: Creación de ventanas emergentes para la interfaz de usuario.
+- [ ] Formularios: Maquetación, captura de eventos e inserción de nuevos datos en la aplicación.
+
+**Fase 6: Ecosistema y Despliegue (Por hacer)**
+- [ ] Despliegue: Preparación y deploy a producción (hosting de la aplicación).
 - [ ] Ecosistema React: Análisis de diferencias entre versiones y entornos de desarrollo (Create React App vs. Vite vs. Next.js).
 
 ## 🛠️ Tecnologías
