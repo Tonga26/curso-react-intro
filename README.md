@@ -23,7 +23,7 @@ Each completed feature represents a new milestone in my understanding of React, 
 ## 📸 Preview
 
 <p align="center">
-  <img src="./assets/preview.png" alt="Todo Machine Preview" width="850"/>
+  <img src="./assets/preview.png" alt="Todo Machine Preview" width="300"/>
 </p>
 
 ---
@@ -80,26 +80,50 @@ Throughout this project I have been implementing and reinforcing the following R
 
 ---
 
+---
+
 ## 🏗️ Project Structure
 
 ```text
 src/
-├── assets/
-│   └── preview.png
-├── components/
-│   ├── TodoCounter
-│   ├── TodoSearch
-│   ├── TodoList
-│   ├── TodoItem
-│   ├── TodoIcon
-│   ├── CompleteIcon
-│   ├── DeleteIcon
-│   └── CreateTodoButton
-├── App.js
-├── index.js
-└── styles/
-    └── CSS (BEM Methodology)
+│
+├── App/
+│   ├── index.js
+│   └── useLocalStorage.js
+│
+├── CreateTodoButton/
+│   ├── index.js
+│   └── CreateTodoButton.css
+│
+├── TodoCounter/
+│   ├── index.js
+│   └── TodoCounter.css
+│
+├── TodoItem/
+│   ├── index.js
+│   └── TodoItem.css
+│
+├── TodoList/
+│   ├── index.js
+│   └── TodoList.css
+│
+├── TodoSearch/
+│   ├── index.js
+│   └── TodoSearch.css
+│
+├── TodoIcon/
+│   ├── index.js
+│   ├── CompleteIcon.js
+│   ├── DeleteIcon.js
+│   ├── check.svg
+│   ├── delete.svg
+│   └── TodoIcon.css
+│
+├── index.css
+└── index.js
 ```
+
+Each component lives inside its own directory, keeping its implementation and styles together. This organization improves maintainability, simplifies navigation, and makes the project easier to scale as new features are added.
 
 The application follows a **component-based architecture**, where each UI element has a single responsibility, making the code easier to maintain, understand, and extend.
 
