@@ -17,21 +17,32 @@ import { CreateTodoButton } from './CreateTodoButton';
 // localStorage.setItem('TODOS_V1', JSON.stringify(defaultTodos));
 // localStorage.removeItem('TODOS_V1');
 
-function App() {
+function useLocalStorage(itemName, initialValue){
 
-  const localStorageTodos = localStorage.getItem('TODOS_V1');
-  let parsedTodos;
+  const localStorageItem = localStorage.getItem(itemName);
+  let parsedItem;
 
-  if(!localStorageTodos){
-    localStorage.setItem('TODOS_V1', JSON.stringify([]))
-    parsedTodos = [];
+  if(!localStorageItem){
+    localStorage.setItem(itemName, JSON.stringify(initialValue))
+    parsedItem = initialValue;
   } else {
-    parsedTodos = JSON.parse(localStorageTodos);
+    parsedItem = JSON.parse(localStorageItem);
   }
+  
+  const [item, setItem] = useState(parsedItem);
 
+  // Actualizar localStorage y guardar el estado
+  const saveItem = (newItem) => {
+    localStorage.setItem(itemName, JSON.stringify(newItem));
+    setItem(newItem);
+  };
 
+  return [item, saveItem];
+}
+
+function App() {
   // Estados principales
-  const [todos, setTodos] = useState(parsedTodos);
+  const [todos, saveTodos] = useLocalStorage('TODOS_V1', []); //Llamamos al custom hook
   const [searchValue, setSearchValue] = useState('');
 
   // Estados derivados
@@ -46,11 +57,7 @@ function App() {
     }
   );
 
-  // Actualizar localStorage y guardar el estado
-  const saveTodos = (newTodos) => {
-    localStorage.setItem('TODOS_V1', JSON.stringify(newTodos));
-    setTodos(newTodos);
-  };
+  
 
   // Marcar TODO como completado
   const completeTodo = (text) => {
