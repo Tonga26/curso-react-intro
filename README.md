@@ -1,76 +1,187 @@
-# Todo Machine 📝 (En Desarrollo 🚧)
+# 📝 Todo Machine
 
-Una aplicación web interactiva para la gestión de tareas construida con React.js. Este proyecto se encuentra actualmente **en pleno desarrollo** como parte de un proceso de aprendizaje profundo para dominar los fundamentos y herramientas avanzadas del ecosistema de React.
+> A React learning project focused on mastering component-based architecture, state management, custom hooks, and modern frontend development practices.
 
-## 🚀 Características Actuales
+![Status](https://img.shields.io/badge/Status-In_Progress-orange)
+![React](https://img.shields.io/badge/React-18-61DAFB?logo=react)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?logo=javascript&logoColor=black)
+![CSS](https://img.shields.io/badge/CSS-BEM-blue)
+![License](https://img.shields.io/badge/License-MIT-green)
 
-- **Arquitectura Base:** Creación y estructuración inicial de componentes funcionales.
-- **Renderizado Dinámico:** Uso de condicionales y propiedades (props) para modificar la interfaz.
-- **Estilos Modulares:** Aplicación estricta de la metodología BEM (Block, Element, Modifier) mediante CSS puro y clases dinámicas.
+---
 
-## 🗺️ Roadmap de Aprendizaje y Desarrollo
+## 📖 About the Project
 
-**Fase 1: Fundamentos y UI Estática (Completado)**
-- [x] Creación y estructuración de componentes UI.
-- [x] Comunicación entre componentes mediante Props.
-- [x] Renderizado de listas a partir de arrays (uso de `key`).
-- [x] Maquetación y estilos modulares con metodología BEM y CSS puro.
-- [x] Renderizado condicional e inyección de clases dinámicas.
+Todo Machine is a personal learning project developed while studying the React ecosystem.
 
-**Fase 2: Interactividad y Persistencia (Completado)**
-- [x] Interactividad y Estado: Manejo de Eventos y Estados (`useState`) en React.
-- [x] Lógica de Negocio: Funcionalidad para contar, completar y eliminar TODOs.
-- [x] Integración de Íconos: Creación de componentes SVG reutilizables.
-- [x] Persistencia: Almacenamiento de datos utilizando API genérica del navegador (`localStorage`).
-- [x] Custom Hooks: Abstracción de la lógica de almacenamiento en un hook personalizado (`useLocalStorage`).
+Rather than building a production-ready task manager from day one, the goal of this repository is to **document my learning journey** by progressively implementing React concepts, improving the application's architecture, and adopting frontend best practices.
 
-**Fase 3: Asincronismo y Ciclo de Vida (Por hacer)**
-- [ ] Efectos Secundarios: Manejo del ciclo de vida de los componentes con `useEffect`.
-- [ ] Estados UI: Gestión de estados de carga (loading) y manejo de errores.
-- [ ] Experiencia de Usuario (UX): Implementación de *Loading Skeletons* (pantallas de carga falsas).
+Each completed feature represents a new milestone in my understanding of React, making this repository both a functional application and a record of my growth as a software developer.
 
-**Fase 4: Escalabilidad y Estado Global (Por hacer)**
-- [ ] Arquitectura: Organización de archivos y carpetas, directorios *feature-first* y abstracción de componentes.
-- [ ] Estado Global: Solución al *Prop Drilling* implementando `React Context` y `useContext`.
+---
 
-**Fase 5: Componentes Avanzados y Formularios (Por hacer)**
-- [ ] React Portals: Teletransportación de componentes en el DOM.
-- [ ] Modales: Creación de ventanas emergentes para la interfaz de usuario.
-- [ ] Formularios: Maquetación, captura de eventos e inserción de nuevos datos en la aplicación.
+## 📸 Preview
 
-**Fase 6: Ecosistema y Despliegue (Por hacer)**
-- [ ] Despliegue: Preparación y deploy a producción (hosting de la aplicación).
-- [ ] Ecosistema React: Análisis de diferencias entre versiones y entornos de desarrollo (Create React App vs. Vite vs. Next.js).
+<p align="center">
+  <img src="./assets/preview.png" alt="Todo Machine Preview" width="850"/>
+</p>
 
-## 🛠️ Tecnologías
+---
 
-- **Librería Core:** React.js
-- **Lenguaje:** JavaScript (ES6+)
-- **Estilos:** CSS3 Puro (Metodología BEM)
-- **Entorno:** Create React App
+## ✨ Current Features
 
-## ⚙️ Instalación y Uso (Local)
+- ✅ Create and manage TODO items
+- ✅ Mark tasks as completed
+- ✅ Delete existing tasks
+- ✅ Search tasks in real time
+- ✅ Dynamic task statistics
+- ✅ Persistent data using Local Storage
+- ✅ Responsive and component-based user interface
+- ✅ SVG icon components with reusable architecture
 
-Para probar la versión actual en tu entorno local, sigue estos pasos:
+---
 
-1- Clona el repositorio:
-```bash
-git clone https://github.com/Tonga26/curso-react-intro
+## ⚛️ React Concepts Practiced
+
+Throughout this project I have been implementing and reinforcing the following React concepts:
+
+### Fundamentals
+
+- Functional Components
+- JSX
+- Component Composition
+- Props
+- Event Handling
+
+### State Management
+
+- `useState`
+- Derived State
+- Controlled Components
+- Conditional Rendering
+
+### Rendering
+
+- Rendering Lists
+- Dynamic CSS Classes
+- Reusable Components
+
+### Reusability
+
+- Custom Hooks
+- Component Separation
+- SVG Components
+- Separation of Concerns
+
+### Browser APIs
+
+- Local Storage
+- Data Persistence
+
+---
+
+## 🏗️ Project Structure
+
+```text
+src/
+├── assets/
+│   └── preview.png
+├── components/
+│   ├── TodoCounter
+│   ├── TodoSearch
+│   ├── TodoList
+│   ├── TodoItem
+│   ├── TodoIcon
+│   ├── CompleteIcon
+│   ├── DeleteIcon
+│   └── CreateTodoButton
+├── App.js
+├── index.js
+└── styles/
+    └── CSS (BEM Methodology)
 ```
 
-2- Accede al directorio del proyecto:
-```Bash
+The application follows a **component-based architecture**, where each UI element has a single responsibility, making the code easier to maintain, understand, and extend.
+
+---
+
+## 🛠️ Technologies
+
+- **React 18**
+- **JavaScript (ES6+)**
+- **CSS3** (BEM Methodology)
+- **Create React App**
+- **Local Storage API**
+
+---
+
+## 💡 What I Learned
+
+This project helped me understand how to build user interfaces by thinking in **reusable components** instead of pages.
+
+While developing Todo Machine, I practiced React fundamentals such as state management, component composition, custom hooks, conditional rendering, and data persistence, reinforcing the importance of writing clean, maintainable, and scalable code.
+
+---
+
+## 🗺️ Learning Roadmap
+
+- ✅ Component-based architecture
+- ✅ Props and state management
+- ✅ Event handling
+- ✅ Conditional rendering
+- ✅ Lists and dynamic rendering
+- ✅ Custom Hooks
+- ✅ Local Storage persistence
+
+### Next Steps
+
+- 🔄 `useEffect`
+- 🔄 React Context API
+- 🔄 React Portals
+- 🔄 Forms
+- 🔄 Performance optimization
+- 🔄 Migration to Vite
+
+---
+
+## 🚀 Getting Started
+
+Clone the repository:
+
+```bash
+git clone https://github.com/Tonga26/curso-react-intro.git
+```
+
+Navigate to the project:
+
+```bash
 cd curso-react-intro
 ```
 
-3- Instala las dependencias necesarias:
-```Bash
+Install dependencies:
+
+```bash
 npm install
 ```
 
-4- Inicia el servidor de desarrollo:
-```Bash
+Start the development server:
+
+```bash
 npm start
 ```
 
-La aplicación estará disponible en http://localhost:3000.
+Open your browser at:
+
+```
+http://localhost:3000
+```
+
+---
+
+## 👨‍💻 About This Repository
+
+This repository is part of my journey learning React.
+
+Instead of treating it as a one-time course project, I use it as a place to progressively apply new concepts while improving the codebase, architecture, and development practices.
+
+The objective is to document my learning process through consistent commits and incremental improvements, following the same mindset used in real-world software development.
