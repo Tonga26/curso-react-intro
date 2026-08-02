@@ -4,7 +4,13 @@ import { useLocalStorage } from './useLocalStorage';
 
 function App() {
   // Estados principales
-  const [todos, saveTodos] = useLocalStorage('TODOS_V1', []); //Llamamos al custom hook
+  const {
+    item: todos,
+    saveItem: saveTodos,
+    loading,
+    error
+  } = useLocalStorage('TODOS_V1', []);
+  
   const [searchValue, setSearchValue] = useState('');
 
   // Estados derivados
@@ -18,8 +24,6 @@ function App() {
       return todoText.includes(searchText);
     }
   );
-
-  
 
   // Marcar TODO como completado
   const completeTodo = (text) => {
@@ -42,7 +46,9 @@ function App() {
   }
 
   return (
-    <AppUI 
+    <AppUI
+      loading={loading}
+      error={error}
       completedTodos={completedTodos}
       totalTodos={totalTodos}
       searchValue={searchValue}
