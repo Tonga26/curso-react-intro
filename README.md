@@ -157,10 +157,10 @@ While developing Todo Machine, I practiced React fundamentals such as state mana
 - ✅ Lists and dynamic rendering
 - ✅ Custom Hooks
 - ✅ Local Storage persistence
+- ✅ `useEffect` and Component Lifecycle
 
 ### Next Steps
 
-- 🔄 `useEffect`
 - 🔄 React Context API
 - 🔄 React Portals
 - 🔄 Forms
