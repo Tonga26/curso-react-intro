@@ -96,6 +96,10 @@ src/
 │   ├── index.js
 │   └── CreateTodoButton.css
 │
+├── EmptyTodos/
+│   ├── index.js
+│   └── EmptyTodos.css
+│
 ├── TodoCounter/
 │   ├── index.js
 │   └── TodoCounter.css
@@ -111,6 +115,14 @@ src/
 ├── TodoSearch/
 │   ├── index.js
 │   └── TodoSearch.css
+│
+├── TodoError/
+│   ├── index.js
+│   └── TodoError.css
+│
+├── TodoLoading/
+│   ├── index.js
+│   └── TodoLoading.css
 │
 ├── TodoIcon/
 │   ├── index.js
