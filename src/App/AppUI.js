@@ -20,7 +20,9 @@ function AppUI() {
     completeTodo,
     deleteTodo,
     openModal,
-    setOpenModal
+    setOpenModal,
+    totalTodos,
+    searchValue
   } = React.useContext(TodoContext);
 
   return (
@@ -37,7 +39,14 @@ function AppUI() {
           </>
         )}
         {error && <TodosError />}
-        {(!loading && searchedTodos.length === 0) && <EmptyTodos />}
+
+        {(!loading && totalTodos === 0) && <EmptyTodos />}
+
+        {(!loading && totalTodos > 0 && searchedTodos.length === 0) && (
+          <p className="TodoList-emptySearch">
+            No se encontraron resultados para "{searchValue}"
+          </p>
+        )}
 
         {searchedTodos.map(todo => (
           <TodoItem
