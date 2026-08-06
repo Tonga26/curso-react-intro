@@ -89,8 +89,7 @@ src/
 │
 ├── App/
 │   ├── AppUI.js
-│   ├── index.js
-│   └── useLocalStorage.js
+│   └── index.js
 │
 ├── CreateTodoButton/
 │   ├── index.js
@@ -100,9 +99,33 @@ src/
 │   ├── index.js
 │   └── EmptyTodos.css
 │
+├── Modal/
+│   ├── index.js
+│   └── Modal.css
+│
+├── TodoContext/
+│   ├── useLocalStorage.js
+│   └── index.js
+│
 ├── TodoCounter/
 │   ├── index.js
 │   └── TodoCounter.css
+│
+├── TodoError/
+│   ├── index.js
+│   └── TodoError.css
+│
+├── TodoForm/
+│   ├── index.js
+│   └── TodoForm.css
+│
+├── TodoIcon/
+│   ├── index.js
+│   ├── CompleteIcon.js
+│   ├── DeleteIcon.js
+│   ├── check.svg
+│   ├── delete.svg
+│   └── TodoIcon.css
 │
 ├── TodoItem/
 │   ├── index.js
@@ -112,25 +135,13 @@ src/
 │   ├── index.js
 │   └── TodoList.css
 │
-├── TodoSearch/
-│   ├── index.js
-│   └── TodoSearch.css
-│
-├── TodoError/
-│   ├── index.js
-│   └── TodoError.css
-│
 ├── TodoLoading/
 │   ├── index.js
 │   └── TodoLoading.css
 │
-├── TodoIcon/
+├── TodoSearch/
 │   ├── index.js
-│   ├── CompleteIcon.js
-│   ├── DeleteIcon.js
-│   ├── check.svg
-│   ├── delete.svg
-│   └── TodoIcon.css
+│   └── TodoSearch.css
 │
 ├── index.css
 └── index.js
@@ -169,15 +180,18 @@ While developing Todo Machine, I practiced React fundamentals such as state mana
 - ✅ Lists and dynamic rendering
 - ✅ Custom Hooks
 - ✅ Local Storage persistence
-- ✅ `useEffect` and Component Lifecycle
+- ✅ useEffect and Component Lifecycle
+- ✅ React Context API
+- ✅ React Portals
+- ✅ Forms and Controlled Components
 
 ### Next Steps
 
-- 🔄 React Context API
-- 🔄 React Portals
-- 🔄 Forms
-- 🔄 Performance optimization
-- 🔄 Migration to Vite
+- 🔄 Deployment & Hosting (GitHub Pages)
+- 🔄 Portfolio Integration & Project Showcase
+- 🔄 React Ecosystem & Versioning Analysis
+- 🔄 Architectural Decisions: When to use React
+- 🔄 Modern React Tooling (CRA vs. Vite vs. Next.js)
 
 ---
 
