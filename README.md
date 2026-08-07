@@ -26,7 +26,7 @@ Each completed feature represents a new milestone in my understanding of React, 
 <p align="center">
   <img src="./assets/preview.png" alt="Todo Machine Main List" width="250" height="250"/>
   &nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="./assets/preview2.PNG" alt="Todo Machine Creation Form" width="250" height="250"/>
+  <img src="./assets/preview2.png" alt="Todo Machine Creation Form" width="250" height="250"/>
 </p>
 
 ## ✨ Current Features
