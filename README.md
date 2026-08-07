@@ -2,13 +2,16 @@
 
 > A React learning project focused on mastering component-based architecture, state management, custom hooks, and modern frontend development practices.
 
-![Status](https://img.shields.io/badge/Status-In_Progress-orange)
+![Status](https://img.shields.io/badge/Status-Deployed-success)
+![Deploy](https://img.shields.io/badge/Deploy-GitHub_Pages-181717?logo=github)
 ![React](https://img.shields.io/badge/React-18-61DAFB?logo=react)
 ![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?logo=javascript&logoColor=black)
 ![CSS](https://img.shields.io/badge/CSS-BEM-blue)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
----
+## 🚀 Live Demo
+
+**[Experience the application live here!](https://gastongiorgio.github.io/curso-react-intro)**
 
 ## 📖 About the Project
 
@@ -18,15 +21,13 @@ Rather than building a production-ready task manager from day one, the goal of t
 
 Each completed feature represents a new milestone in my understanding of React, making this repository both a functional application and a record of my growth as a software developer.
 
----
-
 ## 📸 Preview
 
 <p align="center">
-  <img src="./assets/preview.png" alt="Todo Machine Preview" width="300"/>
+  <img src="./assets/preview.png" alt="Todo Machine Main List" width="250" height="250"/>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="./assets/preview2.PNG" alt="Todo Machine Creation Form" width="250" height="250"/>
 </p>
-
----
 
 ## ✨ Current Features
 
@@ -38,8 +39,8 @@ Each completed feature represents a new milestone in my understanding of React, 
 - ✅ Persistent data using Local Storage
 - ✅ Responsive and component-based user interface
 - ✅ SVG icon components with reusable architecture
-
----
+- ✅ Smart empty states for initial load and failed searches
+- ✅ Automated CI/CD deployment flow via GitHub Pages
 
 ## ⚛️ React Concepts Practiced
 
@@ -77,10 +78,6 @@ Throughout this project I have been implementing and reinforcing the following R
 
 - Local Storage
 - Data Persistence
-
----
-
----
 
 ## 🏗️ Project Structure
 
@@ -151,8 +148,6 @@ Each component lives inside its own directory, keeping its implementation and st
 
 The application follows a **component-based architecture**, where each UI element has a single responsibility, making the code easier to maintain, understand, and extend.
 
----
-
 ## 🛠️ Technologies
 
 - **React 18**
@@ -160,16 +155,13 @@ The application follows a **component-based architecture**, where each UI elemen
 - **CSS3** (BEM Methodology)
 - **Create React App**
 - **Local Storage API**
-
----
+- **GitHub Pages (gh-pages)**
 
 ## 💡 What I Learned
 
 This project helped me understand how to build user interfaces by thinking in **reusable components** instead of pages.
 
 While developing Todo Machine, I practiced React fundamentals such as state management, component composition, custom hooks, conditional rendering, and data persistence, reinforcing the importance of writing clean, maintainable, and scalable code.
-
----
 
 ## 🗺️ Learning Roadmap
 
@@ -184,23 +176,21 @@ While developing Todo Machine, I practiced React fundamentals such as state mana
 - ✅ React Context API
 - ✅ React Portals
 - ✅ Forms and Controlled Components
+- ✅ Deployment & Hosting (GitHub Pages)
 
 ### Next Steps
 
-- 🔄 Deployment & Hosting (GitHub Pages)
 - 🔄 Portfolio Integration & Project Showcase
 - 🔄 React Ecosystem & Versioning Analysis
 - 🔄 Architectural Decisions: When to use React
 - 🔄 Modern React Tooling (CRA vs. Vite vs. Next.js)
-
----
 
 ## 🚀 Getting Started
 
 Clone the repository:
 
 ```bash
-git clone https://github.com/Tonga26/curso-react-intro.git
+git clone https://github.com/gastongiorgio/curso-react-intro.git
 ```
 
 Navigate to the project:
@@ -219,6 +209,12 @@ Start the development server:
 
 ```bash
 npm start
+```
+
+Deploy to GitHub Pages:
+
+```Bash
+npm run deploy
 ```
 
 Open your browser at:
